@@ -1,2 +1,2 @@
 # syte1
-## https://polyalip.github.io/syte1/first_page.html
+## https://polyalip.github.io/syte1/yoga/йогаа.html
