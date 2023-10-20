@@ -7,7 +7,7 @@ function verify() {
     console.log(a, b, c, d)
 
 
-    if ((a <= c) and (b <= d)) or ((a <= d) and (b <= c)): {
+    if ((a <= c) and (b <= d)) or ((a <= d) and (b <= c)) {
         result = "Да, может"
         document.getElementById("result").innerText = messageText + result;
         document.getElementsByName('result')[0].value = result;
