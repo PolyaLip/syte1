@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enroll</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="syte.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary>
+      <div class="container-fluid">
+    <a class=" navbar-brand" href="syte.html"><img class="logo" src="photos/logo3.png" alt="logotip"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="syte.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="directions.html">Направления</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="price.html">Стоимость</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rules.html">Правила</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="forms.html">Записаться</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <hr class="hr">
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 great">
+                    <img class="form" src="photos/forms.jpg">
+                </div>
+                <div class="col-lg-7 super">
+                    <div class="form-style-5">
+                        <form action="https://www.yandex.ru/search?" method="get" name="User">
+                            <fieldset>
+                                <h3 class="head">Форма для записи на занятия</h3>
+                                <input type="text" name="name" placeholder="Введите свое имя">
+                                <input type="email" name="email" placeholder="Введите свой Email">
+                                <input type="number" name="age" placeholder="Укажите свой возраст">
+                                <label>Выберите занятие</label>
+                                <select id="types" name="types">
+                                    <option value="hatha">Хатха-йога</option>
+                                    <option value="nidra">Йога-нидра</option>
+                                    <option value="kundalini">Кундалини-йога</option>
+                                    <option value="ashtanga">Аштанга</option>
+                                    <option value="vynyasa">Виньяса</option>
+                                    <option value="yin">Инь йога</option>
+                                    <option value="iyengar">Айенгара</option>
+                                    <option value="gamaki">Йога в гамаках</option>
+                                    <option value="bikram">Бикрам йога</option>
+                                </select>
+                                <label>Укажите типа занятия</label>
+                                <input type="radio" name="type" value="solo">Индивидуальное<input type="radio" name="type" value="collective">Групповое
+                                <label>Укажите дату занятия</label>
+                                <input type="date" name="date">
+                            </fieldset>
+                            <input type="hidden" name="function"  value="page">
+                            <input type="submit" value="Отправить" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+        </div>
+        <ul class="social">
+            <li><a href="https://ru-ru.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://twitter.com/?lang=ru"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="https://www.linkedin.com/learning-login/"><ion-icon name="logo-linkedin"><ion-icon></a></li>
+            <li><a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="syte.html">Главная</a></li>
+            <li><a href="directions.html">Направления</a></li>
+            <li><a href="price.html">Стоимость</a></li>
+            <li><a href="rules.html">Правила</a></li>
+            <li><a href="forms.html">Записаться</a></li>
+        </ul>
+        <p>©2023 Motion - йога-студия в Москве</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
