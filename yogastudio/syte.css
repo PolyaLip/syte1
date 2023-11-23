@@ -29,6 +29,10 @@ h1.head {
 .par{
     padding-top: 15px;
 }
+.hea {
+    text-decoration: none;
+    color: #000000;
+}
 
 /*rules*/
 .against {
